@@ -1,0 +1,21 @@
+Botão de Seguir do Twitter
+<a href="http://twitter.com/WingetCS" class="twitter-follow-button" data-lang="pt">Follow @WingetCS</a>
+<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+
+Botão Para Twettar
+<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="WingetCS" data-related="FabioCSM:Diretor da Winget Creative Solutions" data-lang="pt">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+Link Twitter
+http://twitter.com/#!/WingetCS
+
+Link Linkedin
+http://www.linkedin.com/company/winget-creative-solutions
+
+Link Orkut
+http://www.orkut.com.br/Main#Community?cmm=115870122
+
+Link Facebook
+http://www.facebook.com/pages/Winget-Creative-Solutions/120345478051855?sk=info
+
+Adicionar no msn.
+<a href="msnim:add?contact=winget@winget.com">TEXTO PARA LINK</a> 
