@@ -1,0 +1,98 @@
+/*********************************************
+ * IFRS - Projeto Final - CPW
+ * Date: november / 2011
+ * Author: Fábio Miranda e Letícia Figueira
+ * License: MIT
+*********************************************/
+
+/*********************************************
+ * Menu
+ * 1. References
+ * 2. HTML - Base (fonts, basic elements)
+ * 3. Reusables
+ * 4. #header
+ * 5. #main
+ * 6. #footer
+ * 7. CSS buttons
+*********************************************/
+
+/*********************************************
+ * 1. References
+  Colors:
+    blue: #a3cbfc;
+*********************************************/
+
+/*********************************************
+ * 2. HTML - Base
+*********************************************/
+body {
+  min-width: 960px;
+
+  background-image: linear-gradient(bottom, rgb(255,255,255) 40%, rgb(163,203,252) 90%);
+  background-image: -o-linear-gradient(bottom, rgb(255,255,255) 40%, rgb(163,203,252) 90%);
+  background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 40%, rgb(163,203,252) 90%);
+  background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 40%, rgb(163,203,252) 90%);
+  background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 40%, rgb(163,203,252) 90%);
+  background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.4, rgb(255,255,255)), color-stop(0.9, rgb(163,203,252)));
+  min-height: 720px;
+
+}
+/*********************************************
+ * 3. Reusables
+*********************************************/
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+/*********************************************
+ * 4. #header
+*********************************************/
+#header {
+  margin-top: 20px;
+}
+#menu {
+  top: 56px;
+}
+#menu ul li {
+  display: inline;
+  margin-right: 10px;
+}
+/*********************************************
+ * 5. #main
+*********************************************/
+#main {
+}
+/*********************************************
+ * 7. CSS Buttons
+*********************************************/
+.pill {
+  background-color:#79bbff;
+  background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+  border:1px solid #84bbf3;
+  border-radius:10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+  box-shadow:inset 0px 5px 4px 0px #bbdaf7;
+    -moz-box-shadow:inset 0px 5px 4px 0px #bbdaf7;
+    -webkit-box-shadow:inset 0px 5px 4px 0px #bbdaf7;
+  color:#ffffff;
+  display:inline-block;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+  font: normal 15px Arial, Helvetica, sans-serif;
+  padding:3px 18px;
+  text-decoration:none;
+  text-shadow:2px 2px 0px #528ecc;
+}
+.pill:hover {
+  background-color:#378de5;
+  background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+  background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+}
+.pill:active {
+  position:relative;
+    top:1px;
+}
