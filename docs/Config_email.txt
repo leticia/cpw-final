@@ -1,7 +1,0 @@
-imap.gmail.com
-smtp.gmail.com
-933 SSL
-587 TLS
-
-winget+winget.com.br
-nome de usuário antigo
