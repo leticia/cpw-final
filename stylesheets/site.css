@@ -35,7 +35,8 @@ body {
   background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 40%, rgb(163,203,252) 90%);
   background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.4, rgb(255,255,255)), color-stop(0.9, rgb(163,203,252)));
   min-height: 720px;
-
+}
+h1, h2, h3 {
 }
 /*********************************************
  * 3. Reusables
@@ -52,17 +53,35 @@ body {
 #header {
   margin-top: 20px;
 }
+#logo h1 {
+  display: none;
+}
 #menu {
-  top: 56px;
+  top: 42px;
 }
 #menu ul li {
   display: inline;
   margin-right: 10px;
 }
+#menu ul li a {
+  font: normal 18px/1em 'Lato', Helvetica, Arial, sans-serif;
+  padding: 10px;
+  text-shadow: 1px 1px 0 #666;
+}
 /*********************************************
  * 5. #main
 *********************************************/
 #main {
+  padding: 10px;
+}
+#main h2#caption {
+  font: 300 32px/1em 'Lato', Helvetica, Arial, sans-serif;
+  margin: 50px 0 20px 0;
+  text-shadow: 1px 1px 1px #FFF;
+
+}
+#main h3#explanation {
+  font: 700 20px/1em 'Lato', Helvetica, Arial, sans-serif;
 }
 /*********************************************
  * 7. CSS Buttons
