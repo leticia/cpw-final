@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="en">
+<head>
+    <title>Nivo Slider Demo</title>
+    <link rel="stylesheet" href="../themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../themes/pascal/pascal.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../themes/orman/orman.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="../nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+</head>
+<body>
+    <div id="wrapper">
+    
+        <a href="http://dev7studios.com" id="dev7link" title="Go to dev7studios">dev7studios</a>
+
+        <div class="slider-wrapper theme-default">
+            <div class="ribbon"></div>
+            <div id="slider" class="nivoSlider">
+                <img src="images/toystory.jpg" alt="" rel="images/toystory_thumb.jpg"/>
+                <a href="http://dev7studios.com"><img src="images/up.jpg" alt="" rel="images/up_thumb.jpg" title="#htmlcaption2" /></a>
+                <img src="images/walle.jpg" alt="" rel="images/walle_thumb.jpg"/>
+                <img src="images/nemo.jpg" alt="" rel="images/nemo_thumb.jpg" title="#htmlcaption1" />
+            </div>
+            <div id="htmlcaption1" class="nivo-html-caption">
+                <strong>Esse</strong> é um exemplo de <em>HTML</em> legenda com <a href="#">um link</a>.
+            </div>
+            <div id="htmlcaption2" class="nivo-html-caption">
+                <strong>Outra</strong> exemplo de <em>HTML</em> legenda com <a href="#">outro link</a>.
+            </div>
+        </div>
+        <style>
+#slider .nivo-controlNav {
+	position:absolute;
+	bottom:-70px; /* Put the nav below the slider */
+}
+#slider .nivo-controlNav img {
+	display:inline; /* Unhide the thumbnails */
+	position:relative;
+	margin-right:10px;
+}
+</style>
+    </div>
+    <script type="text/javascript" src="scripts/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="../jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+        effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
+        animSpeed: 500, // Slide transition speed
+        pauseTime: 3000, // How long each slide will show
+        startSlide: 0, // Set starting Slide (0 index)
+        //directionNav: true, // Next & Prev navigation
+        //directionNavHide: true, // Only show on hover
+        //controlNav: true, // 1,2,3... navigation
+        controlNavThumbs: true, // Use thumbnails for Control Nav
+        //controlNavThumbsFromRel: false, // Use image rel for thumbs
+        controlNavThumbsSearch: '.jpg', // Replace this with...
+        controlNavThumbsReplace: '_thumb.jpg', // ...this in thumb Image src
+        //keyboardNav: true, // Use left & right arrows
+        //pauseOnHover: true, // Stop animation while hovering
+        //manualAdvance: false, // Force manual transitions
+        //captionOpacity: 0.8, // Universal caption opacity
+        prevText: 'Anterior', // Prev directionNav text
+        nextText: 'Próxima', // Next directionNav text
+        //randomStart: false, // Start on a random slide
+        //beforeChange: function(){}, // Triggers before a slide transition
+        //afterChange: function(){}, // Triggers after a slide transition
+        //slideshowEnd: function(){}, // Triggers after all slides have been shown
+        //lastSlide: function(){}, // Triggers when last slide is shown
+        //afterLoad: function(){} // Triggers when slider has loaded
+    });
+});
+</script>
+</body>
+</html>
