@@ -38,6 +38,9 @@ body {
   background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 40%, rgb(163,203,252) 90%);
   background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 40%, rgb(163,203,252) 90%);
   background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.4, rgb(255,255,255)), color-stop(0.9, rgb(163,203,252)));
+  background-position:center top;
+  background-repeat:repeat-x;
+  background-size: 100%;
 }
 h1, h2, h3 {
 }
