@@ -87,17 +87,17 @@ h1, h2, h3 {
 }
 
 /* Slider */
-#slider, #slider img {
+#slider, #slider > img {
   height: 300px;
   width: 600px;
 }
 #slider .nivo-controlNav {
   position: absolute;
-  bottom: -70px; /* Põe os thumbs abaixo do slider */
+    bottom: -70px; /* Põe os thumbs abaixo do slider */
 }
 #slider .nivo-controlNav img {
   display: inline;   /* Mostra thumbnails */
-  margin-right: 10px;
+  margin-right: 50px;
   position: relative;
     width: 50px;
     height: 50px;

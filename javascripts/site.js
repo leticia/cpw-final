@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $("#slider").nivoSlider({
     effect: 'fade',
-    directionNav: false,
+    directionNav: true,
     controlNavThumbs: true,
     controlNavThumbsFromRel: true
   });
