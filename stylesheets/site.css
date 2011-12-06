@@ -27,6 +27,7 @@
 *********************************************/
 html, body {
 	height:100%;
+	color:#333;
 }
 
 body {
@@ -79,14 +80,46 @@ h1, h2, h3 {
   padding: 10px;
 }
 #main h2#caption {
-  font: 300 32px/1em 'Lato', Helvetica, Arial, sans-serif;
+  font: 700 32px/1em 'Lato', Helvetica, Arial, sans-serif;
   margin: 50px 0 20px 0;
   text-shadow: 1px 1px 1px #FFF;
 
 }
 #main h3#explanation {
-  font: 700 20px/1em 'Lato', Helvetica, Arial, sans-serif;
+  font: 400 20px/1em 'Lato', Helvetica, Arial, sans-serif;
 }
+
+/*********************************************
+ * 6. Footer
+*********************************************/
+
+#footer {
+	position: relative;
+	margin-top:30px;
+}
+
+
+#footer .container_12 .right p {
+	font: 400 14px/1em 'Lato', Helvetica, Arial, sans-serif;
+	/*font-size: 10px;*/
+	text-align: left;
+}
+
+#footer .container_12 .right p a {
+	text-decoration:none;
+	color:#999;
+}
+
+#footer .container_12 .right p a:hover {
+	text-decoration:underline;
+	color:#333;
+}
+#footer #TIM {
+	margin-left: 25px;
+}
+
+
+
 /*********************************************
  * 7. CSS Buttons
 *********************************************/
