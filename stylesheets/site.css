@@ -38,8 +38,6 @@ body {
   background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 40%, rgb(163,203,252) 90%);
   background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 40%, rgb(163,203,252) 90%);
   background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.4, rgb(255,255,255)), color-stop(0.9, rgb(163,203,252)));
-  overflow:hidden;
-  /*min-height: 720px;*/
 }
 h1, h2, h3 {
 }
@@ -77,6 +75,7 @@ h1, h2, h3 {
  * 5. #main
 *********************************************/
 #main {
+  min-height: 720px;
   padding: 10px;
 }
 #main h2#caption {
@@ -118,7 +117,22 @@ h1, h2, h3 {
 	margin-left: 25px;
 }
 
-
+/* Slider */
+#slider, #slider img {
+  height: 300px;
+  width: 600px;
+}
+#slider .nivo-controlNav {
+  position: absolute;
+  bottom: -70px; /* Põe os thumbs abaixo do slider */
+}
+#slider .nivo-controlNav img {
+  display: inline;   /* Mostra thumbnails */
+  margin-right: 10px;
+  position: relative;
+    width: 50px;
+    height: 50px;
+}
 
 /*********************************************
  * 7. CSS Buttons
