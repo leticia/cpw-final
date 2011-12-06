@@ -105,6 +105,7 @@ h1, h2, h3 {
 	font: 400 14px/1em 'Lato', Helvetica, Arial, sans-serif;
 	/*font-size: 10px;*/
 	text-align: left;
+	margin-bottom:15px;
 }
 
 #footer .container_12 .right p a {
