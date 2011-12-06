@@ -25,16 +25,20 @@
 /*********************************************
  * 2. HTML - Base
 *********************************************/
+html, body {
+	height:100%;
+}
+
 body {
   min-width: 960px;
-
   background-image: linear-gradient(bottom, rgb(255,255,255) 40%, rgb(163,203,252) 90%);
   background-image: -o-linear-gradient(bottom, rgb(255,255,255) 40%, rgb(163,203,252) 90%);
   background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 40%, rgb(163,203,252) 90%);
   background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 40%, rgb(163,203,252) 90%);
   background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 40%, rgb(163,203,252) 90%);
   background-image: -webkit-gradient( linear, left bottom, left top, color-stop(0.4, rgb(255,255,255)), color-stop(0.9, rgb(163,203,252)));
-  min-height: 720px;
+  overflow:hidden;
+  /*min-height: 720px;*/
 }
 h1, h2, h3 {
 }
