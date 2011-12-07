@@ -3,7 +3,7 @@
  * Date: november / 2011
  * Author: Fábio Miranda e Letícia Figueira
  * License: MIT
-*********************************************/
+ *********************************************/
 
 /*********************************************
  * Menu
@@ -14,20 +14,20 @@
  * 5. #main
  * 6. #footer
  * 7. CSS buttons
-*********************************************/
+ *********************************************/
 
 /*********************************************
  * 1. References
-  Colors:
-    blue: #a3cbfc;
-*********************************************/
+ Colors:
+ blue: #a3cbfc;
+ *********************************************/
 
 /*********************************************
  * 2. HTML - Base
-*********************************************/
+ *********************************************/
 html, body {
-	height:100%;
-	color:#333;
+  height:100%;
+  color:#333;
 }
 
 body {
@@ -47,7 +47,7 @@ h1, h2, h3 {
 }
 /*********************************************
  * 3. Reusables
-*********************************************/
+ *********************************************/
 .left {
   float: left;
 }
@@ -56,7 +56,7 @@ h1, h2, h3 {
 }
 /*********************************************
  * 4. #header
-*********************************************/
+ *********************************************/
 #header {
   margin-top: 20px;
 }
@@ -73,7 +73,7 @@ h1, h2, h3 {
 }
 
 #header .container_12 #menu .right .omega {
-	margin-right: 9px;
+  margin-right: 9px;
 }
 
 #menu ul li a {
@@ -83,10 +83,10 @@ h1, h2, h3 {
 }
 /*********************************************
  * 5. #main
-*********************************************/
+ *********************************************/
 #main {
   margin-top: 50px;
-  min-height: 100%;
+  min-height: 720px;
   padding: 10px;
 }
 #main h2#caption {
@@ -99,19 +99,31 @@ h1, h2, h3 {
   font: 400 20px/1.4em 'Lato', Helvetica, Arial, sans-serif;
 }
 
+/* Portfolio */
+#portfolio ul li {
+  display: inline;
+  margin-right: 50px;
+}
+
+#portfolio img {
+  height: 200px;
+  margin-bottom: 100px;
+  width: 280px;
+}
+
 /*********************************************
  * 6. Footer
-*********************************************/
+ *********************************************/
 
 #footer {
   margin-top:30px;
   position: relative;
 }
 #footer .container_12 .right p {
-	font: 400 14px/1.4em 'Lato', Helvetica, Arial, sans-serif;
-	/*font-size: 10px;*/
-	text-align: right;
-	margin-bottom:15px;
+  font: 400 14px/1.4em 'Lato', Helvetica, Arial, sans-serif;
+  /*font-size: 10px;*/
+  text-align: right;
+  margin-bottom:15px;
 }
 #footer .container_12 .right p a {
   color:#999;
@@ -121,30 +133,30 @@ h1, h2, h3 {
   margin-right: 3px;
 }
 #footer .container_12 .right p #claro:hover {
-	color:#F00;
+  color:#F00;
 }
 #footer .container_12 .right p #oi:hover {
-	color:#F90;
+  color:#F90;
 }
 #footer .container_12 .right p #tim:hover {
-	color:#30C;
+  color:#30C;
 }
 #footer .container_12 .right p #vivo:hover {
-	color:#306;
+  color:#306;
 }
 #footer #redes_sociais ul li {
-	display: inline;
-	margin: 10px;
-	list-style-type: none;
+  display: inline;
+  margin: 10px;
+  list-style-type: none;
 }
 #footer .container_12 #redes_sociais ul li a:hover {
-	opacity:0.65;
-	background-color:#a3cbfc;
+  opacity:0.65;
+  background-color:#a3cbfc;
 }
 #footer .container_12 .grid_12 p {
-	text-align: center;
-	font-size: 13px;
-	font-weight:300;
+  text-align: center;
+  font-size: 13px;
+  font-weight:300;
 }
 
 /* Slider */
@@ -154,7 +166,7 @@ h1, h2, h3 {
 }
 #slider .nivo-controlNav {
   position: absolute;
-    bottom: -50px; /* Põe os thumbs abaixo do slider */
+  bottom: -50px; /* Põe os thumbs abaixo do slider */
 }
 
 #slider a.nivo-control {
@@ -169,7 +181,7 @@ h1, h2, h3 {
 
 /*********************************************
  * 7. CSS Buttons
-*********************************************/
+ *********************************************/
 .pill {
   background-color:#79bbff;
   background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
@@ -181,14 +193,14 @@ h1, h2, h3 {
   display:inline-block;
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
   font: normal 15px Arial, Helvetica, sans-serif;
-    -moz-border-radius:10px;
-    -moz-box-shadow:inset 0px 5px 4px 0px #bbdaf7;
+  -moz-border-radius:10px;
+  -moz-box-shadow:inset 0px 5px 4px 0px #bbdaf7;
   padding:3px 18px;
   text-align: center;
   text-decoration:none;
   text-shadow:2px 2px 0px #528ecc;
-    -webkit-border-radius:10px;
-    -webkit-box-shadow:inset 0px 5px 4px 0px #bbdaf7;
+  -webkit-border-radius:10px;
+  -webkit-box-shadow:inset 0px 5px 4px 0px #bbdaf7;
   min-width: 83px;
 }
 .pill:hover {
@@ -199,6 +211,6 @@ h1, h2, h3 {
 }
 .pill:active {
   position:relative;
-    top:1px;
+  top:1px;
 }
 
