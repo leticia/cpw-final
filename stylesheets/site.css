@@ -162,17 +162,16 @@ h1, h2, h3 {
 #slider .nivo-controlNav {
   position: absolute;
     bottom: -50px; /* Põe os thumbs abaixo do slider */
-    left: 50%;
 }
 
-#slider .nivo-controlNav a.nivo-control {
-  margin-right: 40px;
+#slider a.nivo-control {
+  margin-right: 100px;
 }
 #slider .nivo-controlNav img {
   display: inline;   /* Mostra thumbnails */
-  height: 50px;
+  height: 100px;
   position: relative;
-  width: 50px;
+  width: 100px;
 }
 
 /*********************************************
