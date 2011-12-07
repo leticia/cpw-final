@@ -69,16 +69,16 @@ h1, h2, h3 {
 }
 #menu ul li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 7px;
 }
 
 #header .container_12 #menu .right .omega {
-	margin-right: 0px;
+	margin-right: 9px;
 }
 
 #menu ul li a {
-  font: normal 18px/1em 'Lato', Helvetica, Arial, sans-serif;
-  padding: 7px 12px;
+  font: normal 17px/1em 'Lato', Helvetica, Arial, sans-serif;
+  padding: 7px 8px;
   text-shadow: 1px 1px 0 #666;
 }
 /*********************************************
