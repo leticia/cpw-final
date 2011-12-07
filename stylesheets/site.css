@@ -216,7 +216,7 @@ body {
   margin-top: 10px;
 }
 
-#blog-search input[type="text"] {
+input[type="text"],input[type="email"],input[type="tel"], textarea {
   background-color: #bbdaf7;
   border: none;
   border-radius:5px;
@@ -224,11 +224,11 @@ body {
     -webkit-box-shadow:inset 0px 0px 5px 0px #77bbff;
   outline: none;
   padding: 3px;
+  resize: none;
 }
 #blog-search input[type="submit"] {
-  background: none;
-  border: none;
   outline: none;
+  min-width: 10px;
 }
 
 /*********************************************
