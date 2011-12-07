@@ -41,6 +41,7 @@ body {
   background-position:center top;
   background-repeat:repeat-x;
   background-size: 100%;
+  font: 400 14px/1.4em 'Lato', Helvetica, Arial, sans-serif;
 }
 h1, h2, h3 {
 }
@@ -82,13 +83,13 @@ h1, h2, h3 {
   padding: 10px;
 }
 #main h2#caption {
-  font: 700 32px/1em 'Lato', Helvetica, Arial, sans-serif;
+  font: 700 32px/1.4em 'Lato', Helvetica, Arial, sans-serif;
   margin: 50px 0 20px 0;
   text-shadow: 1px 1px 1px #FFF;
 
 }
 #main h3#explanation {
-  font: 400 20px/1em 'Lato', Helvetica, Arial, sans-serif;
+  font: 400 20px/1.4em 'Lato', Helvetica, Arial, sans-serif;
 }
 
 /*********************************************
@@ -102,9 +103,9 @@ h1, h2, h3 {
 
 
 #footer .container_12 .right p {
-	font: 400 14px/1em 'Lato', Helvetica, Arial, sans-serif;
+	font: 400 14px/1.4em 'Lato', Helvetica, Arial, sans-serif;
 	/*font-size: 10px;*/
-	text-align: left;
+	text-align: right;
 	margin-bottom:15px;
 }
 
@@ -113,13 +114,43 @@ h1, h2, h3 {
   text-decoration:none;
 }
 
-#footer .container_12 .right p a:hover {
-  color:#333;
-  text-decoration:underline;
+#footer #vivo {
+  margin-right: 3px;
 }
-#footer #TIM {
-  margin-left: 25px;
+
+#footer .container_12 .right p #claro:hover {
+	color:#F00;
 }
+
+#footer .container_12 .right p #oi:hover {
+	color:#F90;
+}
+
+#footer .container_12 .right p #tim:hover {
+	color:#30C;
+}
+
+#footer .container_12 .right p #vivo:hover {
+	color:#306;
+}
+
+#footer #redes_sociais ul li {
+	display: inline;
+	margin: 10px;
+	list-style-type: none;
+}
+
+#footer .container_12 #redes_sociais ul li a:hover {
+	opacity:0.65;
+	background-color:#a3cbfc;
+}
+
+#footer .container_12 .grid_12 p {
+	text-align: center;
+	font-size: 13px;
+	font-weight:300;
+}
+
 
 /* Slider */
 #slider, #slider > img {
@@ -173,4 +204,5 @@ h1, h2, h3 {
 .pill:active {
   position:relative;
     top:1px;
+	
 }

@@ -5,3 +5,6 @@ $(document).ready(function(){
     controlNavThumbs: true
   });
 });
+
+var currentTime = new Date()
+var year = currentTime.getFullYear()
