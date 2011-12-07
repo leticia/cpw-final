@@ -256,19 +256,19 @@ iframe {
   color:#999;
   text-decoration:none;
 }
-#footer .vivo {
+.vivo {
   margin-right: 3px;
 }
-#footer .container_12 .right p .claro:hover {
+.claro:hover {
   color:#F00;
 }
-#footer .container_12 .right p .oi:hover {
+.oi:hover {
   color:#F90;
 }
-#footer .container_12 .right p .tim:hover {
+.tim:hover {
   color:#30C;
 }
-#footer .container_12 .right p .vivo:hover {
+.vivo:hover {
   color:#306;
 }
 #footer #redes_sociais ul li {
