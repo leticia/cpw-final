@@ -65,6 +65,7 @@ h1, h2, h3 {
 }
 #menu {
   top: 42px;
+  left: 10px;
 }
 #menu ul li {
   display: inline;
@@ -84,12 +85,13 @@ h1, h2, h3 {
  * 5. #main
 *********************************************/
 #main {
+  margin-top: 50px;
   min-height: 720px;
   padding: 10px;
 }
 #main h2#caption {
   font: 700 32px/1.4em 'Lato', Helvetica, Arial, sans-serif;
-  margin: 50px 0 20px 0;
+  margin-bottom: 20px;
   text-shadow: 1px 1px 1px #FFF;
 
 }
@@ -175,18 +177,20 @@ h1, h2, h3 {
   background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
   border:1px solid #84bbf3;
   border-radius:10px;
-    -moz-border-radius:10px;
-    -webkit-border-radius:10px;
   box-shadow:inset 0px 5px 4px 0px #bbdaf7;
-    -moz-box-shadow:inset 0px 5px 4px 0px #bbdaf7;
-    -webkit-box-shadow:inset 0px 5px 4px 0px #bbdaf7;
   color:#ffffff;
   display:inline-block;
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
   font: normal 15px Arial, Helvetica, sans-serif;
+    -moz-border-radius:10px;
+    -moz-box-shadow:inset 0px 5px 4px 0px #bbdaf7;
   padding:3px 18px;
+  text-align: center;
   text-decoration:none;
   text-shadow:2px 2px 0px #528ecc;
+    -webkit-border-radius:10px;
+    -webkit-box-shadow:inset 0px 5px 4px 0px #bbdaf7;
+  min-width: 83px;
 }
 .pill:hover {
   background-color:#378de5;
@@ -196,7 +200,6 @@ h1, h2, h3 {
 }
 .pill:active {
   position:relative;
-    top:1px;
-	
+    top:1px;	
 }
 
