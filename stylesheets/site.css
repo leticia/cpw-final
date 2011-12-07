@@ -98,18 +98,6 @@ h1, h2, h3 {
   font: 400 20px/1.4em 'Lato', Helvetica, Arial, sans-serif;
 }
 
-/* Portfolio */
-#portfolio ul li {
-  display: inline;
-  margin-right: 50px;
-}
-
-#portfolio img {
-  height: 200px;
-  margin-bottom: 100px;
-  width: 280px;
-}
-
 #main .container_12 #texto h3 {
   font: 700 20px/1.7em 'Lato', Helvetica, Arial, sans-serif;
 }
@@ -126,6 +114,49 @@ h1, h2, h3 {
 
 .sb{
   text-align:right;
+}
+
+/* Portfolio */
+#portfolio ul li {
+  display: inline;
+  margin-right: 50px;
+}
+
+#portfolio img {
+  height: 200px;
+  margin-bottom: 100px;
+  width: 280px;
+}
+
+/* Blog */
+#posts {
+  border: 1px solid #84BBF3;
+  line-height: 1.4em;
+  padding: 15px;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+.post.last {
+  border-top: 3px solid #84BBF3;
+  margin-top: 30px;
+  padding-top: 25px;
+}
+
+.post .post-header {
+  margin-bottom: 10px;
+}
+
+.post a {
+  color: #79BBFF;
+  font-weight: bold;
+}
+
+.post .post-header h3 {
+  font: 700 22px/1.5em 'Lato', sans-serif;
+}
+
+.post .post-header h4 {
+  font: normal 16px/1em 'Lato', sans-serif;
 }
 
 #main /*.container_12 .grid_4 .contact-info*/ h3 {
