@@ -98,7 +98,7 @@ h1, h2, h3 {
   font: 400 20px/1.4em 'Lato', Helvetica, Arial, sans-serif;
 }
 
-#main .container_12 #texto h3 {
+#main .container_12 .texto h3 {
   font: 700 20px/1.7em 'Lato', Helvetica, Arial, sans-serif;
 }
 
@@ -108,12 +108,12 @@ h1, h2, h3 {
 }
 
 
-#main .container_12 #texto p a{
+#main .container_12 .texto p a{
   text-decoration:none;
   color:#666;
 }
 
-#main .container_12 #texto p a:hover {
+#main .container_12 .texto p a:hover {
   text-decoration:underline;
   color: #999;
 }
@@ -274,7 +274,7 @@ h1, h2, h3 {
   color:#ffffff;
   display:inline-block;
   filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
-  font: normal 15px Arial, Helvetica, sans-serif;
+  font: Arial, Helvetica, sans-serif normal 15px ;
   -moz-border-radius:10px;
   -moz-box-shadow:inset 0px 5px 4px 0px #bbdaf7;
   padding:3px 18px;
