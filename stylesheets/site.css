@@ -249,19 +249,19 @@ input[type="text"],input[type="email"],input[type="tel"], textarea {
   color:#999;
   text-decoration:none;
 }
-#footer #vivo {
+#footer .vivo {
   margin-right: 3px;
 }
-#footer .container_12 .right p #claro:hover {
+#footer .container_12 .right p .claro:hover {
   color:#F00;
 }
-#footer .container_12 .right p #oi:hover {
+#footer .container_12 .right p .oi:hover {
   color:#F90;
 }
-#footer .container_12 .right p #tim:hover {
+#footer .container_12 .right p .tim:hover {
   color:#30C;
 }
-#footer .container_12 .right p #vivo:hover {
+#footer .container_12 .right p .vivo:hover {
   color:#306;
 }
 #footer #redes_sociais ul li {
