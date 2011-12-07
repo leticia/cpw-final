@@ -50,6 +50,23 @@ body {
 :-moz-placeholder {
   color: #333;
 }
+
+input[type="text"],input[type="email"],input[type="tel"], textarea {
+  background-color: #bbdaf7;
+  border: none;
+  border-radius:5px;
+    -webkit-border-radius:10px;
+    -webkit-box-shadow:inset 0px 0px 5px 0px #77bbff;
+  outline: none;
+  padding: 3px;
+  resize: none;
+}
+
+iframe {
+  border: 0;
+  margin: 0;
+  overflow: hidden;
+}
 /*********************************************
  * 3. Reusables
  *********************************************/
@@ -216,16 +233,6 @@ body {
   margin-top: 10px;
 }
 
-input[type="text"],input[type="email"],input[type="tel"], textarea {
-  background-color: #bbdaf7;
-  border: none;
-  border-radius:5px;
-    -webkit-border-radius:10px;
-    -webkit-box-shadow:inset 0px 0px 5px 0px #77bbff;
-  outline: none;
-  padding: 3px;
-  resize: none;
-}
 #blog-search input[type="submit"] {
   outline: none;
   min-width: 10px;
