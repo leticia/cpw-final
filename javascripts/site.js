@@ -1,8 +1,14 @@
 $(document).ready(function(){
   $("#slider").nivoSlider({
     effect: 'fade',
-    directionNav: true,
-    controlNavThumbs: true
+	animSpeed: 900, // Slide transition speed
+    pauseTime: 7000, // How long each slide will show
+	controlNav: false, // 1,2,3... navigation
+	directionNav: false,
+    controlNavThumbs: false,
+	randomStart: true,
+  //  directionNav: true,
+ //   controlNavThumbs: true
   });
 });
 
