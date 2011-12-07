@@ -133,7 +133,7 @@ h1, h2, h3 {
 #posts {
   border: 1px solid #84BBF3;
   line-height: 1.4em;
-  padding: 15px;
+  padding: 8px;
   text-shadow: 1px 1px 0 #fff;
 }
 
@@ -158,6 +158,27 @@ h1, h2, h3 {
 
 .post .post-header h4 {
   font: normal 16px/1em 'Lato', sans-serif;
+}
+
+#sidebar {
+  border: 1px solid #84BBF3;
+  margin-left: 10px;
+  padding: 2px 5px 0 5px;
+}
+
+#sidebar a {
+  color: #79BBFF;
+  font-weight: bold;
+}
+
+#sidebar h4 {
+  font: 700 16px/2em 'Lato', Helvetica, Arial, sans-serif;
+}
+
+#sidebar ul li {
+  color: #79BBFF;
+  list-style: circle outside none;
+  margin-left: 20px;
 }
 
 /*********************************************
