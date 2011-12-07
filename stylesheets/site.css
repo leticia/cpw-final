@@ -118,27 +118,48 @@ h1, h2, h3 {
   color: #999;
 }
 
+#main /*.container_12 .grid_4 .contact-info*/ h3 {
+	font-size: 18px;
+	font-weight: 700;
+	line-height:1.5em;
+}
+
+#main .container_12 .grid_5.push_1 p {
+	text-align: justify;
+}
+
 .sb{
   text-align:right;
 }
 
 /* Portfolio */
-#portfolio ul li {
-  display: inline;
-  margin-right: 50px;
+
+#portfolio-gallery {
+  height: 360px;
+  width: 540px;
+}
+#portfolio-gallery .nivo-controlNav {
+  position: absolute;
+    left: -300px; /* Põe os thumbs abaixo do portfolio */
+    top: 19%;
+  width: 265px;
 }
 
-#portfolio img {
-  height: 200px;
-  margin-bottom: 100px;
-  width: 280px;
+#portfolio-gallery a.nivo-control {
+  margin: 0 65px 65px 0;
+}
+#portfolio-gallery .nivo-controlNav img {
+  display: block;   /* Mostra thumbnails */
+  height: 60px;
+  position: relative;
+  width: 80px;
 }
 
 /* Blog */
 #posts {
   border: 1px solid #84BBF3;
   line-height: 1.4em;
-  padding: 15px;
+  padding: 8px;
   text-shadow: 1px 1px 0 #fff;
 }
 
@@ -165,16 +186,26 @@ h1, h2, h3 {
   font: normal 16px/1em 'Lato', sans-serif;
 }
 
-#main /*.container_12 .grid_4 .contact-info*/ h3 {
-	font-size: 18px;
-	font-weight: 700;
-	line-height:1.5em;
+#sidebar {
+  border: 1px solid #84BBF3;
+  margin-left: 10px;
+  padding: 2px 5px 0 5px;
 }
 
-#main .container_12 .grid_5.push_1 p {
-	text-align: justify;
+#sidebar a {
+  color: #79BBFF;
+  font-weight: bold;
 }
 
+#sidebar h4 {
+  font: 700 16px/2em 'Lato', Helvetica, Arial, sans-serif;
+}
+
+#sidebar ul li {
+  color: #79BBFF;
+  list-style: circle outside none;
+  margin-left: 20px;
+}
 
 /*********************************************
  * 6. Footer
@@ -228,20 +259,6 @@ h1, h2, h3 {
 #slider, #slider > img {
   height: 360px;
   width: 540px;
-}
-#slider .nivo-controlNav {
-  position: absolute;
-  bottom: -50px; /* Põe os thumbs abaixo do slider */
-}
-
-#slider a.nivo-control {
-  margin-right: 100px;
-}
-#slider .nivo-controlNav img {
-  display: inline;   /* Mostra thumbnails */
-  height: 100px;
-  position: relative;
-  width: 100px;
 }
 
 /*********************************************
@@ -302,5 +319,5 @@ h1, h2, h3 {
 .pill:active {
   position:relative;
   top:1px;
-  
+
 }
