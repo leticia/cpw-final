@@ -69,11 +69,16 @@ h1, h2, h3 {
 }
 #menu ul li {
   display: inline;
-  margin-right: 5px;
+  margin-right: 10px;
 }
+
+#header .container_12 #menu .right .omega {
+	margin-right: 0px;
+}
+
 #menu ul li a {
   font: normal 18px/1em 'Lato', Helvetica, Arial, sans-serif;
-  padding: 10px;
+  padding: 7px 12px;
   text-shadow: 1px 1px 0 #666;
 }
 /*********************************************
@@ -81,7 +86,7 @@ h1, h2, h3 {
 *********************************************/
 #main {
   margin-top: 50px;
-  min-height: 720px;
+  min-height: 100%;
   padding: 10px;
 }
 #main h2#caption {
@@ -102,62 +107,50 @@ h1, h2, h3 {
   margin-top:30px;
   position: relative;
 }
-
-
 #footer .container_12 .right p {
 	font: 400 14px/1.4em 'Lato', Helvetica, Arial, sans-serif;
 	/*font-size: 10px;*/
 	text-align: right;
 	margin-bottom:15px;
 }
-
 #footer .container_12 .right p a {
   color:#999;
   text-decoration:none;
 }
-
 #footer #vivo {
   margin-right: 3px;
 }
-
 #footer .container_12 .right p #claro:hover {
 	color:#F00;
 }
-
 #footer .container_12 .right p #oi:hover {
 	color:#F90;
 }
-
 #footer .container_12 .right p #tim:hover {
 	color:#30C;
 }
-
 #footer .container_12 .right p #vivo:hover {
 	color:#306;
 }
-
 #footer #redes_sociais ul li {
 	display: inline;
 	margin: 10px;
 	list-style-type: none;
 }
-
 #footer .container_12 #redes_sociais ul li a:hover {
 	opacity:0.65;
 	background-color:#a3cbfc;
 }
-
 #footer .container_12 .grid_12 p {
 	text-align: center;
 	font-size: 13px;
 	font-weight:300;
 }
 
-
 /* Slider */
 #slider, #slider > img {
-  height: 300px;
-  width: 600px;
+  height: 360px;
+  width: 540px;
 }
 #slider .nivo-controlNav {
   position: absolute;
@@ -207,5 +200,5 @@ h1, h2, h3 {
 .pill:active {
   position:relative;
     top:1px;
-
 }
+
