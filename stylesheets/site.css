@@ -95,7 +95,7 @@ h1, h2, h3 {
   text-shadow: 1px 1px 1px #FFF;
 
 }
-#main h3#explanation {
+#main h3#explanation{
   font: 400 20px/1.4em 'Lato', Helvetica, Arial, sans-serif;
 }
 
@@ -109,6 +109,24 @@ h1, h2, h3 {
   height: 200px;
   margin-bottom: 100px;
   width: 280px;
+}
+
+#main .container_12 #texto h3 {
+  font: 400 20px/1.7em 'Lato', Helvetica, Arial, sans-serif;
+}
+
+#main .container_12 #texto p a{
+  text-decoration:none;
+  color:#666;
+}
+
+#main .container_12 #texto p a:hover {
+  text-decoration:underline;
+  color: #999;
+}
+
+.sb{
+  text-align:right;
 }
 
 /*********************************************
@@ -213,4 +231,3 @@ h1, h2, h3 {
   position:relative;
   top:1px;
 }
-
