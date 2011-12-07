@@ -127,15 +127,26 @@ h1, h2, h3 {
 }
 
 /* Portfolio */
-#portfolio ul li {
-  display: inline;
-  margin-right: 50px;
+
+#portfolio-gallery {
+  height: 360px;
+  width: 540px;
+}
+#portfolio-gallery .nivo-controlNav {
+  position: absolute;
+    left: -300px; /* Põe os thumbs abaixo do portfolio */
+    top: 19%;
+  width: 265px;
 }
 
-#portfolio img {
-  height: 200px;
-  margin-bottom: 100px;
-  width: 280px;
+#portfolio-gallery a.nivo-control {
+  margin: 0 65px 65px 0;
+}
+#portfolio-gallery .nivo-controlNav img {
+  display: block;   /* Mostra thumbnails */
+  height: 60px;
+  position: relative;
+  width: 80px;
 }
 
 /* Blog */
@@ -242,20 +253,6 @@ h1, h2, h3 {
 #slider, #slider > img {
   height: 360px;
   width: 540px;
-}
-#slider .nivo-controlNav {
-  position: absolute;
-  bottom: -50px; /* Põe os thumbs abaixo do slider */
-}
-
-#slider a.nivo-control {
-  margin-right: 100px;
-}
-#slider .nivo-controlNav img {
-  display: inline;   /* Mostra thumbnails */
-  height: 100px;
-  position: relative;
-  width: 100px;
 }
 
 /*********************************************
