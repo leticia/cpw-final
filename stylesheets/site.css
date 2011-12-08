@@ -60,6 +60,8 @@ input[type="text"],input[type="email"],input[type="tel"], textarea {
   outline: none;
   padding: 3px;
   resize: none;
+  font: 400 14px/1.4em 'Lato', Helvetica, Arial, sans-serif !important;
+  color:#333;
 }
 
 iframe {
