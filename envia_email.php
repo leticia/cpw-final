@@ -51,8 +51,6 @@ $corpoSimples = "
 $mail->CharSet = 'UTF-8';
 $mail->IsMail(true);
 $mail->Host = 'localhost';
-//$mail->Username = 'yoopala@yoopala.com';
-//$mail->Password = 'hugo2612';
 $mail->From = 'site@winget.com.br';
 $mail->FromName = 'Site Winget Creative Solutions';
 $mail->Subject = $assunto;
